@@ -1,5 +1,7 @@
 export const fetcher = async (
+  // 목표 URI
   resource: RequestInfo,
+  // HTTP method, headers, body
   init?: RequestInit
 ): Promise<any> => {
   const res = await fetch(resource, init);
