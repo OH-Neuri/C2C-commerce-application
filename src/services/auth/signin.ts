@@ -4,7 +4,7 @@ import { fetcher } from "utils";
 export type SigninParams = {
   /**
    * 사용자 명
-   * 샘픙 사용자의 사용자명은 "user"
+   * 샘플 사용자의 사용자명은 "user"
    */
   username: string;
   /**
@@ -25,7 +25,7 @@ const signin = async (
   params: SigninParams
 ): Promise<User> => {
   return await fetcher(
-    `${context.apiRootUrl.replace(/\/$/g, "")}/auth/signin}`,
+    `${context.apiRootUrl.replace(/\/$/g, "")}/auth/signin`,
     {
       method: "POST",
       headers: {
@@ -36,4 +36,5 @@ const signin = async (
     }
   );
 };
+
 export default signin;
