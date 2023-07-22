@@ -36,7 +36,7 @@ const getUser = async (
     {
       headers: {
         Accept: "applcation/json",
-        "Content-Type": "aaplcation/json",
+        "Content-Type": "applcation/json",
       },
     }
   );
