@@ -65,18 +65,14 @@ const Footer = () => {
         </Box>
         <Box minWidth={{ base: "100%", md: "120px" }}>
           <nav>
-            <Anchor
-              as="a"
-              href="https://github.com/moseskim/ts-nextbook-app"
-              target="_blank"
-            >
+            <Anchor as="a" href="https://github.com/OH-Neuri" target="_blank">
               <GitHubIcon size={22} />
             </Anchor>
           </nav>
         </Box>
       </Flex>
       <Box paddingTop={3} paddingBottom={2}>
-        <Text>© 2021 Gijutsuhyoronsha Co., Ltd.. All rights reserved.</Text>
+        <Text>© 2021 OhHaNeul Co., Ltd.. All rights reserved.</Text>
       </Box>
     </footer>
   );
